@@ -87,7 +87,7 @@ BOATs are categorized under nine sub-categories; constructions, transport, sessi
 ### Lightning Forwarding
 | Index  | Specification                                      | Status     |
 |------- |----------------------------------------------------|------------|
-| [BOAT-24](24.md)   | HTCL spk derivation                          | Draft      |
+| [BOAT-24](24.md)   | HTLC spk derivation                          | Draft      |
 | [BOAT-25](25.md)   | HTLCs tree                         | Draft      |
 
 ### Lightning Receiving
