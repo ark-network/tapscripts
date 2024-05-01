@@ -1,0 +1,14 @@
+eltr(
+    02d7924d4f7d43ea965a465ae3095ff41131e5946f3c85f79e44adbcf8e27e080e,
+    {
+        multi_a(
+            2,
+            02d7924d4f7d43ea965a465ae3095ff41131e5946f3c85f79e44adbcf8e27e080e,
+            02d7924d4f7d43ea965a465ae3095ff41131e5946f3c85f79e44adbcf8e27e080f
+        ),
+        and_v(
+            v:pk(02d7924d4f7d43ea965a465ae3095ff41131e5946f3c85f79e44adbcf8e27e080e), 
+            older(512)
+        )
+    }
+)

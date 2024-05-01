@@ -1,0 +1,16 @@
+eltr(
+    02d7924d4f7d43ea965a465ae3095ff41131e5946f3c85f79e44adbcf8e27e080e,
+    {
+        and_v(
+            spk_eq(out_spk(0), 5120d7924d4f7d43ea965a465ae3095ff41131e5946f3c85f79e44adbcf8e27e080e),
+            value_eq(
+                sub(curr_inp_value, 010000000000000000),
+                out_value(0)
+            )
+        ),
+        and_v(
+            v:pk(02d7924d4f7d43ea965a465ae3095ff41131e5946f3c85f79e44adbcf8e27e080e), 
+            older(512)
+        )
+    }
+)
