@@ -1,4 +1,3 @@
-// unroll-2-children-closure
 // constructorInputs:
 taproot_key:
     type: schnorr public key
@@ -25,7 +24,9 @@ OP_1
 OP_EQUALVERIFY                      // stack: [input_value, out_value]
 OP_DATA_8
 <min_relay_fee_amount>              // stack: [min_relay_fee_amount, input_value, out_value]
-OP_SUB64                            // stack: [input_value - min_relay_fee_amount, out_value]
+OP_SUB64                            // stack: [overflow, input_value - min_relay_fee_amount, out_value]
+OP_1                                // stack: [1, overflow, input_value - min_relay_fee_amount, out_value]
+OP_EQUALVERIFY                      // stack: [input_value - min_relay_fee_amount, out_value]
 OP_EQUAL
 
 // miniscript policy
